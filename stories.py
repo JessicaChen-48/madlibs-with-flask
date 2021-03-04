@@ -24,6 +24,9 @@ class Story:
         self.prompts = words
         self.template = text
 
+    # def __repr__(self):
+    #     return f"Story class '\n' Prompts = {self.prompts} '\n' Template = {self.template}"
+
     def generate(self, answers):
         """Substitute answers into text."""
 
